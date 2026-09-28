@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! What health information are you looking for?"
+      ]
+    },
+
+    {
+      "tag": "headache",
+      "patterns": [
+        "I have a headache",
+        "My head hurts",
+        "I am having a headache",
+        "What should I do for headache?",
+        "I have pain in my head"
+      ],
+      "responses": [
+        "Headaches can have many causes. Rest, hydration, and monitoring your symptoms may help. If the headache is severe or persistent, consider consulting a healthcare professional."
+      ]
+    },
+
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have fever",
+        "I have a temperature",
+        "I am feeling feverish",
+        "What should I do for fever?",
+        "I think I have a fever"
+      ],
+      "responses": [
+        "Fever can occur for many reasons. Stay hydrated and monitor your temperature. If it is high, persistent, or accompanied by concerning symptoms, seek medical advice."
+      ]
+    },
+
+    {
+      "tag": "cold",
+      "patterns": [
+        "I have a cold",
+        "I have a runny nose",
+        "My nose is blocked",
+        "I am having a cold",
+        "What can I do for a cold?"
+      ],
+      "responses": [
+        "Common colds often improve with rest and fluids. If your symptoms become severe or do not improve, consider consulting a healthcare professional."
+      ]
+    },
+
+    {
+      "tag": "medicine",
+      "patterns": [
+        "Tell me about medicines",
+        "What is this medicine used for?",
+        "I want medicine information",
+        "Can you give me medicine information?"
+      ],
+      "responses": [
+        "I can provide general medicine information, but you should consult a doctor or pharmacist before taking medication."
+      ]
+    },
+
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I want to book an appointment",
+        "How can I see a doctor?",
+        "I need a doctor",
+        "I want to consult a doctor"
+      ],
+      "responses": [
+        "Please contact a qualified healthcare professional or your local clinic to arrange an appointment."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Thank you",
+        "Thanks"
+      ],
+      "responses": [
+        "You're welcome! Take care.",
+        "Goodbye! Take care of yourself."
+      ]
+    }
+  ]
+}
